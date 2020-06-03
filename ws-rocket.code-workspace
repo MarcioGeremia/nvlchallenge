@@ -1,0 +1,34 @@
+{
+  "folders": [
+    {
+      "path": "server"
+    },
+    {
+      "path": "web"
+    }
+  ],
+  "settings": {
+    "prettier.singleQuote": false,
+    "editor.formatOnSave": true,
+    "editor.suggestSelection": "first",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "eslint.format.enable": true,
+    "eslint.packageManager": "npm",
+    "debug.chrome.useV3": true,
+    "[javascript]": {
+      "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "actionButtons": {
+      "loadNpmCommands": false, // Disables automatic generation of actions for npm commands.
+      "reloadButton": "♻️", // Custom reload button text or icon (default ↻). null value enables automatic reload on configuration change
+      "commands": [
+        {
+          "name": "WWW",
+          "color": "white",
+          "singleInstance": true,
+          "command": "cd C:\\www"
+        }
+      ]
+    }
+  }
+}
