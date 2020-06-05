@@ -5,6 +5,9 @@
     },
     {
       "path": "web"
+    },
+    {
+      "path": "mobile"
     }
   ],
   "settings": {
@@ -18,6 +21,8 @@
     "[javascript]": {
       "editor.defaultFormatter": "dbaeumer.vscode-eslint"
     },
+    "emmet.syntaxProfiles": { "javascript": "jsx" },
+    "emmet.includeLanguages": { "javascript": "javascriptreact" },
     "actionButtons": {
       "loadNpmCommands": false, // Disables automatic generation of actions for npm commands.
       "reloadButton": "♻️", // Custom reload button text or icon (default ↻). null value enables automatic reload on configuration change
